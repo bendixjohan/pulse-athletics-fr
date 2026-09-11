@@ -1,6 +1,14 @@
-<!-- HERO SHOT/VIDEO -->
-<video width="320" height="240" controls loop>
-  <source src="vdo/pulse-hero-video.mov" type="video/mp4">
-  <source src="movie.ogg" type="video/ogg">
-  Your browser does not support the video tag.
-</video>
+  <!-- HERO SHOT/VIDEO -->
+ <video class="hero-video" autoplay muted loop playsinline>
+    <source src="vdo/pulse-hero-video.mov" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+    Your browser does not support the video tag
+ </video>
+
+ /* HERO SHOT/VIDEO */
+ .hero-video {
+    width: 100vw;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+ }
