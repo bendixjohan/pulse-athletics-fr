@@ -9,7 +9,7 @@ body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     color: #000;
-    background-color: rgb(237, 239, 236);
+    background-color: rgb(111, 207, 64);
     margin: 0;
     padding: 0;
 }
@@ -45,3 +45,133 @@ img {
    justify-content: space-around;
 }
 
+ /* HERO SHOT/VIDEO */
+ .hero-video {
+    width: 100vw;
+    height: 1000px;
+    object-fit: cover;
+    display: block;
+ }
+
+ /* DEN SORTE KNAP */
+
+.navbar {
+    background-color: black;
+    width: 60%;
+    height: 80px;
+    margin: 20px auto;
+    border-radius: 50px;
+    position: absolute;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* DE 3 STREGER I MIDTEN AF KNAPPEN */
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    transform: translateY(15px);
+}
+
+.menu span {
+    width: 70px;
+    height: 8px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* PULSE PRO TEKSTEN */
+
+.tekst{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    transform: translateY(15px);
+}
+
+.tekst span {
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 30px;
+}
+
+/* KONTAKT SKRIFTEN I KNAPPEN */
+
+.kontakt {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    transform: translateY(15px);
+}
+
+/* DETTE GØR AT KNAPPEN GÅR UD OVER KANTEN ØVERST */
+
+.top{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* PROFIL */
+
+.user{
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
+
+.user img{
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+/* INDKØBSKURV */
+
+.basket {
+    position: absolute;
+    right: 80px;
+    top: 3px;
+}
+
+.basket img{
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+/* SØGEKNAPPEN */
+
+.search{
+    position: absolute;
+    left: 75px;
+    top: -5px;
+}
+
+.search img{
+    width: 70px;
+    height: 70px;
+    display: block;
+}
+
+/* VORES LOGO */
+
+.logo-p {
+    position: absolute;
+    left: 0%;
+    top: -2px;
+}
+
+.logo-p img{
+    width: 100px;
+    height: 100px;
+    display: block;
+}
